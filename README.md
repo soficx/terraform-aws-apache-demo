@@ -1,4 +1,5 @@
-### AWS Apache Server Terraform Module
+## AWS Apache Server Terraform Module
+---
 
 This Terraform module sets up an Apache server in AWS. It creates an EC2 instance, configures security groups, and installs Apache on the instance.
 
