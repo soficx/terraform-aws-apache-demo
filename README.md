@@ -11,7 +11,7 @@ To use this module, include the following code in your Terraform configuration:
 
 ```hcl
 module "apache" {
-  source = ".//terraform-aws-apache-demo_module"
+  source = "github.com/soficx/terraform-aws-apache-demo"
   vpc_id = "vpc-000000000"
   public_key = "ssh-rsa AAAAB...."
   server_name = "terraform-apache-demo-server"
